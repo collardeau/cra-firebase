@@ -20,6 +20,8 @@ You might want to do this twice, for staging and production environments such as
 
 - enable anonymous login from the firebase console
 
+- enable firestore (in test mode if you don't know about security rules)
+
 - add your app configs to `src/config.js`
 
 #### Install Firebase CLI
