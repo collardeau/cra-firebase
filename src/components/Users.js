@@ -25,7 +25,7 @@ const WithRealTimeUsers = lifecycle({
     return syncUsersByDate(this.props.changeUsersByDate);
   },
   unsub() {},
-  componentWillMount() {
+  componentDidMount() {
     this.unsub = this.sub();
   },
   componentWillUnmount() {

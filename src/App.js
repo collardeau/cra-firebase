@@ -74,7 +74,7 @@ const WithAnonymousSignin = lifecycle({
       this.props.setUid(auth && auth.uid);
     });
   },
-  componentWillMount() {
+  componentDidMount() {
     this.unsub = this.sub();
   },
   componentWillUnmount() {
