@@ -1,7 +1,6 @@
 {
   "name": "cra-firebase",
   "version": "0.1.0",
-  "private": true,
   "dependencies": {
     "firebase": "^4.10.0",
     "lodash.debounce": "^4.0.8",
