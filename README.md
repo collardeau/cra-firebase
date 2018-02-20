@@ -9,18 +9,18 @@
 
 ## Get started
 
-Clone or fork the repo: `https://github.com/collardeau/cra-firebase.git`,
+Clone the repo: `git clone https://github.com/collardeau/cra-firebase.git your-app`,
 and update `package.json` with your app name
 
 #### Set up Firebase
+
+You might want to do this twice, for staging and production environments such as you have `my-app-staging` and my `my-app-production` as firebase projects:
 
 - set ut your app at https://firebase.google.com
 
 - enable anonymous login from the firebase console
 
 - add your app configs to `src/config.js`
-
-You might want to do this twice, for staging and production environments.
 
 #### Install Firebase CLI
 
